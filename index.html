@@ -9,15 +9,6 @@
     <meta name="keywords" content="FlowLoss,FlowLoss网址发布页,FlowLoss最新地址,FlowLoss网址多少,FlowLoss流量消耗器,flowloss app下载,flowloss流量消耗网站" />
 	<link rel="icon" href="favicon.ico" />
 	<link href="css/style.css" rel="stylesheet">
-	<script>
-	var _hmt = _hmt || [];
-	(function() {
-	  var hm = document.createElement("script");
-	  hm.src = "https://hm.baidu.com/hm.js?01f07896498ddebf4488253f600a1d7e";
-	  var s = document.getElementsByTagName("script")[0]; 
-	  s.parentNode.insertBefore(hm, s);
-	})();
-	</script>
 </head>
 <body>
     <!-- 背景粒子特效模块 -->
@@ -38,7 +29,7 @@
 							<li v-for="(aisles, index) in FlowLoss.UrlList" :key="index">
 								<span style="font-weight: 600; color: black; display: flex; justify-content: space-between;">
 									{{ aisles.title }}
-									<div style="text-align: right; color: #999;">延迟：<font :style="{'color': aisles.color}">{{ aisles.ms }}</font></div>
+									<div style="text-align: right; color: #999;">状态：<font :style="{'color': aisles.color}">{{ aisles.ms }}</font></div>
 								  </span>
                                 <div class="link">
                                     <a :href="aisles.website" target="_blank"><i>{{ aisles.website }}</i></a>
